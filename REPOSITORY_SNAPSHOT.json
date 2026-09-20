@@ -1,0 +1,38 @@
+{
+  "snapshot_date": "2026-09-20",
+  "organization": "kibernetinio-saugumo-sprendimai",
+  "repository_count": 24,
+  "groups": {
+    "trust_registry": 7,
+    "runtime_infrastructure": 7,
+    "intelligence_automation": 4,
+    "web_publishing": 3,
+    "ecosystem_media": 3
+  },
+  "repositories": [
+    {"name": ".github", "group": "web_publishing", "visibility": "public", "status": "active", "language": null},
+    {"name": "AI-Tyreju-Komanda", "group": "intelligence_automation", "visibility": "public", "status": "active", "language": "JavaScript"},
+    {"name": "SafeStack-Zero-Trust-Platform", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
+    {"name": "Safestack-Sentinel", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
+    {"name": "Safestack-Zero-Trust", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
+    {"name": "Safestack-suite", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
+    {"name": "Verification-artifacts", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
+    {"name": "freedom.manifesto.github.io", "group": "web_publishing", "visibility": "public", "status": "active", "language": "HTML"},
+    {"name": "node-os", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Go"},
+    {"name": "safestack-OSINT", "group": "intelligence_automation", "visibility": "public", "status": "active", "language": "Python"},
+    {"name": "safestack-Pi-5-VPN", "group": "runtime_infrastructure", "visibility": "private", "status": "active", "language": "Shell"},
+    {"name": "safestack-audit_system", "group": "intelligence_automation", "visibility": "public", "status": "active", "language": "Python"},
+    {"name": "safestack-canon", "group": "trust_registry", "visibility": "public", "status": "archived", "language": null},
+    {"name": "safestack-control-architecture", "group": "trust_registry", "visibility": "public", "status": "active", "language": "HTML"},
+    {"name": "safestack-media-library", "group": "ecosystem_media", "visibility": "public", "status": "active", "language": null},
+    {"name": "safestack-music", "group": "ecosystem_media", "visibility": "public", "status": "active", "language": null},
+    {"name": "safestack-partners", "group": "ecosystem_media", "visibility": "public", "status": "active", "language": null},
+    {"name": "safestack-porfolio.github.io", "group": "web_publishing", "visibility": "public", "status": "active", "language": "HTML"},
+    {"name": "safestack-project-public-keys", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
+    {"name": "safestack-sertifikatai", "group": "runtime_infrastructure", "visibility": "private", "status": "active", "language": null},
+    {"name": "safestack-technical-canon", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
+    {"name": "safestack-validation-registry", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
+    {"name": "safestack_registry", "group": "trust_registry", "visibility": "private", "status": "active", "language": "Python"},
+    {"name": "telegram-ai-bot", "group": "intelligence_automation", "visibility": "private", "status": "active", "language": "TypeScript"}
+  ]
+}
