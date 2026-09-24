@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 880" role="img" aria-labelledby="title desc">
-  <title id="title">SafeStack repository architecture map</title>
-  <desc id="desc">A scatter plot showing 24 SafeStack repositories by exposure and system role.</desc>
+  <title id="title">SafeStack public repository architecture map</title>
+  <desc id="desc">A scatter plot showing all 22 public SafeStack repositories by exposure and system role.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061329"/><stop offset="1" stop-color="#132b4a"/></linearGradient>
     <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
@@ -9,8 +9,8 @@
   <circle cx="1210" cy="120" r="170" fill="#6d5dfc" opacity=".16" filter="url(#soft)"/>
   <circle cx="260" cy="740" r="160" fill="#43e6d2" opacity=".10" filter="url(#soft)"/>
   <text x="70" y="74" fill="#43e6d2" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="5">SAFESTACK / ORGANISATION MAP</text>
-  <text x="70" y="122" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700">Repository architecture</text>
-  <text x="1075" y="82" fill="#a9bddd" font-family="Arial,Helvetica,sans-serif" font-size="14" text-anchor="end">SNAPSHOT · 2026-09-20 · 24 REPOSITORIES</text>
+  <text x="70" y="122" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="700">Public repository architecture</text>
+  <text x="1330" y="82" fill="#a9bddd" font-family="Arial,Helvetica,sans-serif" font-size="14" text-anchor="end">SNAPSHOT · 2026-09-24 · 22 PUBLIC REPOSITORIES</text>
 
   <g opacity=".22" stroke="#9fb5d9" stroke-width="1">
     <path d="M170 170H1280M170 300H1280M170 430H1280M170 560H1280M170 690H1280"/>
@@ -20,58 +20,63 @@
     <path d="M170 690H1280"/><path d="M170 690V170"/>
   </g>
   <g fill="#a9bddd" font-family="Arial,Helvetica,sans-serif" font-size="14">
-    <text x="170" y="730" text-anchor="middle">PRIVATE</text>
-    <text x="1280" y="730" text-anchor="middle">PUBLIC</text>
-    <text x="710" y="770" text-anchor="middle" letter-spacing="3">EXPOSURE / ACCESS SURFACE  →</text>
-    <text x="135" y="690" text-anchor="end">FOUNDATION</text>
-    <text x="135" y="175" text-anchor="end">USER-FACING</text>
-    <text x="95" y="440" text-anchor="middle" transform="rotate(-90 95 440)" letter-spacing="3">SYSTEM ROLE / MATURITY  →</text>
+    <text x="170" y="730" text-anchor="middle">FOUNDATION CORE</text>
+    <text x="1280" y="730" text-anchor="middle">PUBLIC EDGE</text>
+    <text x="725" y="770" text-anchor="middle" letter-spacing="3">ARCHITECTURAL EXPOSURE SURFACE  →</text>
+    <text x="135" y="690" text-anchor="end">ROOT ANCHOR</text>
+    <text x="135" y="175" text-anchor="end">USER INTERFACE</text>
+    <text x="95" y="440" text-anchor="middle" transform="rotate(-90 95 440)" letter-spacing="3">SYSTEM ROLE / LAYER  →</text>
   </g>
 
-  <!-- trust and registry -->
+  <!-- 1. trust and registry (6 repos) -->
   <g fill="#6d5dfc" stroke="#d9d5ff" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
-    <circle cx="255" cy="610" r="11" stroke-dasharray="3 3"/><text x="273" y="614" fill="#fff" stroke="none">safestack_registry</text>
-    <circle cx="360" cy="575" r="11" stroke-dasharray="3 3"/><text x="378" y="579" fill="#fff" stroke="none">sertifikatai</text>
-    <circle cx="650" cy="630" r="11"/><text x="668" y="634" fill="#fff" stroke="none">public-keys</text>
-    <circle cx="760" cy="585" r="11"/><text x="778" y="589" fill="#fff" stroke="none">validation</text>
-    <circle cx="850" cy="545" r="11" fill="#6b7180"/><text x="868" y="549" fill="#c1cad9" stroke="none">canon (archived)</text>
-    <circle cx="980" cy="505" r="11"/><text x="998" y="509" fill="#fff" stroke="none">control-architecture</text>
-    <circle cx="1090" cy="620" r="11"/><text x="1108" y="624" fill="#fff" stroke="none">verification</text>
-  </g>
-  <!-- runtime and infrastructure -->
-  <g fill="#43e6d2" stroke="#d5fff8" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
-    <circle cx="300" cy="420" r="11" stroke-dasharray="3 3"/><text x="318" y="424" fill="#fff" stroke="none">Pi-5-VPN</text>
-    <circle cx="650" cy="380" r="11"/><text x="668" y="384" fill="#fff" stroke="none">node-os</text>
-    <circle cx="800" cy="345" r="11"/><text x="818" y="349" fill="#fff" stroke="none">zero-trust</text>
-    <circle cx="930" cy="285" r="11"/><text x="948" y="289" fill="#fff" stroke="none">ZT-platform</text>
-    <circle cx="1040" cy="355" r="11"/><text x="1058" y="359" fill="#fff" stroke="none">sentinel</text>
-    <circle cx="1140" cy="300" r="11"/><text x="1158" y="304" fill="#fff" stroke="none">suite</text>
-  </g>
-  <!-- intelligence and automation -->
-  <g fill="#ffb86b" stroke="#fff0d6" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
-    <circle cx="300" cy="500" r="11" stroke-dasharray="3 3"/><text x="318" y="504" fill="#fff" stroke="none">telegram-ai-bot</text>
-    <circle cx="740" cy="405" r="11"/><text x="758" y="409" fill="#fff" stroke="none">audit_system</text>
-    <circle cx="900" cy="365" r="11"/><text x="918" y="369" fill="#fff" stroke="none">OSINT</text>
-    <circle cx="1080" cy="405" r="11"/><text x="1098" y="409" fill="#fff" stroke="none">Tyreju AI</text>
-  </g>
-  <!-- web, ecosystem and media -->
-  <g fill="#9be15d" stroke="#efffdc" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
-    <circle cx="1010" cy="220" r="11"/><text x="1028" y="224" fill="#fff" stroke="none">.github</text>
-    <circle cx="1130" cy="180" r="11"/><text x="1148" y="184" fill="#fff" stroke="none">freedom manifesto</text>
-    <circle cx="1220" cy="215" r="11"/><text x="1238" y="219" fill="#fff" stroke="none">portfolio</text>
-  </g>
-  <g fill="#ff4ecd" stroke="#ffd5f3" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
-    <circle cx="900" cy="450" r="11"/><text x="918" y="454" fill="#fff" stroke="none">partners</text>
-    <circle cx="1160" cy="420" r="11"/><text x="1178" y="424" fill="#fff" stroke="none">media-library</text>
-    <circle cx="1240" cy="365" r="11"/><text x="1258" y="369" fill="#fff" stroke="none">music</text>
+    <circle cx="280" cy="650" r="11" fill="#6b7180"/><text x="298" y="654" fill="#c1cad9" stroke="none">canon (archived)</text>
+    <circle cx="460" cy="610" r="11"/><text x="478" y="614" fill="#fff" stroke="none">technical-canon</text>
+    <circle cx="640" cy="635" r="11"/><text x="658" y="639" fill="#fff" stroke="none">public-keys</text>
+    <circle cx="780" cy="585" r="11"/><text x="798" y="589" fill="#fff" stroke="none">validation-registry</text>
+    <circle cx="940" cy="525" r="11"/><text x="958" y="529" fill="#fff" stroke="none">control-architecture</text>
+    <circle cx="1100" cy="620" r="11"/><text x="1118" y="624" fill="#fff" stroke="none">verification-artifacts</text>
   </g>
 
+  <!-- 2. runtime and infrastructure (5 repos) -->
+  <g fill="#43e6d2" stroke="#d5fff8" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
+    <circle cx="480" cy="410" r="11"/><text x="498" y="414" fill="#fff" stroke="none">node-os</text>
+    <circle cx="660" cy="355" r="11"/><text x="678" y="359" fill="#fff" stroke="none">zero-trust</text>
+    <circle cx="850" cy="305" r="11"/><text x="868" y="309" fill="#fff" stroke="none">ZT-platform</text>
+    <circle cx="1000" cy="365" r="11"/><text x="1018" y="369" fill="#fff" stroke="none">sentinel</text>
+    <circle cx="1140" cy="315" r="11"/><text x="1158" y="319" fill="#fff" stroke="none">suite</text>
+  </g>
+
+  <!-- 3. intelligence and automation (3 repos) -->
+  <g fill="#ffb86b" stroke="#fff0d6" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
+    <circle cx="710" cy="450" r="11"/><text x="728" y="454" fill="#fff" stroke="none">audit_system</text>
+    <circle cx="890" cy="410" r="11"/><text x="908" y="414" fill="#fff" stroke="none">OSINT</text>
+    <circle cx="1080" cy="445" r="11"/><text x="1098" y="449" fill="#fff" stroke="none">Tyreju AI</text>
+  </g>
+
+  <!-- 4. web and publishing (4 repos) -->
+  <g fill="#9be15d" stroke="#efffdc" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
+    <circle cx="820" cy="210" r="11"/><text x="838" y="214" fill="#fff" stroke="none">safestack-book</text>
+    <circle cx="980" cy="245" r="11"/><text x="998" y="249" fill="#fff" stroke="none">.github</text>
+    <circle cx="1120" cy="185" r="11"/><text x="1138" y="189" fill="#fff" stroke="none">freedom manifesto</text>
+    <circle cx="1225" cy="225" r="11"/><text x="1243" y="229" fill="#fff" stroke="none">portfolio</text>
+  </g>
+
+  <!-- 5. ecosystem and media (4 repos) -->
+  <g fill="#ff4ecd" stroke="#ffd5f3" stroke-width="2" font-family="Arial,Helvetica,sans-serif" font-size="12">
+    <circle cx="750" cy="510" r="11"/><text x="768" y="514" fill="#fff" stroke="none">repo-map</text>
+    <circle cx="920" cy="475" r="11"/><text x="938" y="479" fill="#fff" stroke="none">partners</text>
+    <circle cx="1160" cy="410" r="11"/><text x="1178" y="414" fill="#fff" stroke="none">media-library</text>
+    <circle cx="1245" cy="355" r="11"/><text x="1263" y="359" fill="#fff" stroke="none">music</text>
+  </g>
+
+  <!-- legend -->
   <g transform="translate(70 815)" font-family="Arial,Helvetica,sans-serif" font-size="13">
-    <circle cx="8" cy="0" r="7" fill="#6d5dfc"/><text x="24" y="5" fill="#c8d6ee">trust</text>
-    <circle cx="105" cy="0" r="7" fill="#43e6d2"/><text x="121" y="5" fill="#c8d6ee">runtime</text>
-    <circle cx="215" cy="0" r="7" fill="#ffb86b"/><text x="231" y="5" fill="#c8d6ee">intelligence</text>
-    <circle cx="365" cy="0" r="7" fill="#9be15d"/><text x="381" y="5" fill="#c8d6ee">web</text>
-    <circle cx="445" cy="0" r="7" fill="#ff4ecd"/><text x="461" y="5" fill="#c8d6ee">media</text>
-    <text x="680" y="5" fill="#8ea9cf">dashed ring = private · grey = archived</text>
+    <circle cx="8" cy="0" r="7" fill="#6d5dfc"/><text x="24" y="5" fill="#c8d6ee">Trust (6)</text>
+    <circle cx="115" cy="0" r="7" fill="#43e6d2"/><text x="131" y="5" fill="#c8d6ee">Runtime (5)</text>
+    <circle cx="235" cy="0" r="7" fill="#ffb86b"/><text x="251" y="5" fill="#c8d6ee">Intelligence (3)</text>
+    <circle cx="375" cy="0" r="7" fill="#9be15d"/><text x="391" y="5" fill="#c8d6ee">Web (4)</text>
+    <circle cx="475" cy="0" r="7" fill="#ff4ecd"/><text x="491" y="5" fill="#c8d6ee">Ecosystem (4)</text>
+    <text x="780" y="5" fill="#8ea9cf">All 22 public repositories displayed · Private repos excluded · Grey = archived</text>
   </g>
 </svg>

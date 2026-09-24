@@ -1,38 +1,191 @@
 {
-  "snapshot_date": "2026-09-20",
+  "snapshot_date": "2026-09-24",
   "organization": "kibernetinio-saugumo-sprendimai",
-  "repository_count": 24,
+  "scope": "public_only",
+  "repository_count": 22,
   "groups": {
-    "trust_registry": 7,
-    "runtime_infrastructure": 7,
-    "intelligence_automation": 4,
-    "web_publishing": 3,
-    "ecosystem_media": 3
+    "trust_registry": 6,
+    "runtime_infrastructure": 5,
+    "intelligence_automation": 3,
+    "web_publishing": 4,
+    "ecosystem_media": 4
   },
   "repositories": [
-    {"name": ".github", "group": "web_publishing", "visibility": "public", "status": "active", "language": null},
-    {"name": "AI-Tyreju-Komanda", "group": "intelligence_automation", "visibility": "public", "status": "active", "language": "JavaScript"},
-    {"name": "SafeStack-Zero-Trust-Platform", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
-    {"name": "Safestack-Sentinel", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
-    {"name": "Safestack-Zero-Trust", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
-    {"name": "Safestack-suite", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Python"},
-    {"name": "Verification-artifacts", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
-    {"name": "freedom.manifesto.github.io", "group": "web_publishing", "visibility": "public", "status": "active", "language": "HTML"},
-    {"name": "node-os", "group": "runtime_infrastructure", "visibility": "public", "status": "active", "language": "Go"},
-    {"name": "safestack-OSINT", "group": "intelligence_automation", "visibility": "public", "status": "active", "language": "Python"},
-    {"name": "safestack-Pi-5-VPN", "group": "runtime_infrastructure", "visibility": "private", "status": "active", "language": "Shell"},
-    {"name": "safestack-audit_system", "group": "intelligence_automation", "visibility": "public", "status": "active", "language": "Python"},
-    {"name": "safestack-canon", "group": "trust_registry", "visibility": "public", "status": "archived", "language": null},
-    {"name": "safestack-control-architecture", "group": "trust_registry", "visibility": "public", "status": "active", "language": "HTML"},
-    {"name": "safestack-media-library", "group": "ecosystem_media", "visibility": "public", "status": "active", "language": null},
-    {"name": "safestack-music", "group": "ecosystem_media", "visibility": "public", "status": "active", "language": null},
-    {"name": "safestack-partners", "group": "ecosystem_media", "visibility": "public", "status": "active", "language": null},
-    {"name": "safestack-porfolio.github.io", "group": "web_publishing", "visibility": "public", "status": "active", "language": "HTML"},
-    {"name": "safestack-project-public-keys", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
-    {"name": "safestack-sertifikatai", "group": "runtime_infrastructure", "visibility": "private", "status": "active", "language": null},
-    {"name": "safestack-technical-canon", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
-    {"name": "safestack-validation-registry", "group": "trust_registry", "visibility": "public", "status": "active", "language": null},
-    {"name": "safestack_registry", "group": "trust_registry", "visibility": "private", "status": "active", "language": "Python"},
-    {"name": "telegram-ai-bot", "group": "intelligence_automation", "visibility": "private", "status": "active", "language": "TypeScript"}
+    {
+      "name": ".github",
+      "group": "web_publishing",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "Shared organisation profiles, community health files, and workflow defaults"
+    },
+    {
+      "name": "AI-Tyreju-Komanda",
+      "group": "intelligence_automation",
+      "visibility": "public",
+      "status": "active",
+      "language": "JavaScript",
+      "description": "AI investigative agent tooling and collaborative analysis workspace"
+    },
+    {
+      "name": "freedom.manifesto.github.io",
+      "group": "web_publishing",
+      "visibility": "public",
+      "status": "active",
+      "language": "HTML",
+      "description": "Public SafeStack freedom manifesto portal and community documentation"
+    },
+    {
+      "name": "node-os",
+      "group": "runtime_infrastructure",
+      "visibility": "public",
+      "status": "active",
+      "language": "Go",
+      "description": "Autonomous zero-trust security layer for Pi 5 edge nodes with NVMe health monitoring"
+    },
+    {
+      "name": "safestack-audit_system",
+      "group": "intelligence_automation",
+      "visibility": "public",
+      "status": "active",
+      "language": "Python",
+      "description": "Deterministic AI-first security audit framework with hardened runtime governance"
+    },
+    {
+      "name": "safestack-book",
+      "group": "web_publishing",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "SafeStack library for books, articles, technical papers, and documentation"
+    },
+    {
+      "name": "safestack-canon",
+      "group": "trust_registry",
+      "visibility": "public",
+      "status": "archived",
+      "language": null,
+      "description": "Canonical integrity anchors and signed trust definitions for SafeStack"
+    },
+    {
+      "name": "safestack-control-architecture",
+      "group": "trust_registry",
+      "visibility": "public",
+      "status": "active",
+      "language": "HTML",
+      "description": "Layered routing, encryption mechanisms, and infrastructure trust boundaries"
+    },
+    {
+      "name": "safestack-media-library",
+      "group": "ecosystem_media",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "Curated visual asset library for documentation, schematics, and media"
+    },
+    {
+      "name": "safestack-music",
+      "group": "ecosystem_media",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "Public SafeStack soundtrack and audio link catalogue"
+    },
+    {
+      "name": "safestack-OSINT",
+      "group": "intelligence_automation",
+      "visibility": "public",
+      "status": "active",
+      "language": "Python",
+      "description": "Modular, policy-driven OSINT framework with cryptographic integrity verification"
+    },
+    {
+      "name": "safestack-partners",
+      "group": "ecosystem_media",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "SafeStack partners and security ecosystem integration resources"
+    },
+    {
+      "name": "safestack-porfolio.github.io",
+      "group": "web_publishing",
+      "visibility": "public",
+      "status": "active",
+      "language": "HTML",
+      "description": "SafeStack public portfolio and architectural showcase portal"
+    },
+    {
+      "name": "safestack-project-public-keys",
+      "group": "trust_registry",
+      "visibility": "public",
+      "status": "active",
+      "language": "Python",
+      "description": "Signed public Ed25519 keys for SafeStack projects and release signers"
+    },
+    {
+      "name": "safestack-repo-map",
+      "group": "ecosystem_media",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "Visual tree and architecture map of the SafeStack GitHub organisation"
+    },
+    {
+      "name": "Safestack-Sentinel",
+      "group": "runtime_infrastructure",
+      "visibility": "public",
+      "status": "active",
+      "language": "Python",
+      "description": "Continuous node security monitoring and telemetry daemon"
+    },
+    {
+      "name": "Safestack-suite",
+      "group": "runtime_infrastructure",
+      "visibility": "public",
+      "status": "active",
+      "language": "Python",
+      "description": "Integrated runtime tools and cryptographic utility suite"
+    },
+    {
+      "name": "safestack-technical-canon",
+      "group": "trust_registry",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "Technical canon specifications, manifest schemas, and cryptographic governance"
+    },
+    {
+      "name": "safestack-validation-registry",
+      "group": "trust_registry",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "Official registry of validated SafeStack projects, audit records, and declarations"
+    },
+    {
+      "name": "Safestack-Zero-Trust",
+      "group": "runtime_infrastructure",
+      "visibility": "public",
+      "status": "active",
+      "language": "Python",
+      "description": "Local-first zero-trust policy decision engine, default deny, and posture gates"
+    },
+    {
+      "name": "SafeStack-Zero-Trust-Platform",
+      "group": "runtime_infrastructure",
+      "visibility": "public",
+      "status": "active",
+      "language": "Python",
+      "description": "Zero-trust security platform and policy orchestration components"
+    },
+    {
+      "name": "Verification-artifacts",
+      "group": "trust_registry",
+      "visibility": "public",
+      "status": "active",
+      "language": "Shell",
+      "description": "Detached cryptographic checksum files and verification manifests for external validation"
+    }
   ]
 }
