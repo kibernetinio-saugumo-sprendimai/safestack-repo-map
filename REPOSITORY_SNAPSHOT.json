@@ -1,18 +1,20 @@
 {
-  "snapshot_date": "2026-09-24",
+  "snapshot_date": "2026-11-06",
   "organization": "kibernetinio-saugumo-sprendimai",
+  "organization_url": "https://github.com/kibernetinio-saugumo-sprendimai",
   "scope": "public_only",
-  "repository_count": 22,
+  "repository_count": 20,
   "groups": {
     "trust_registry": 6,
-    "runtime_infrastructure": 5,
-    "intelligence_automation": 3,
+    "runtime_infrastructure": 4,
+    "intelligence_automation": 2,
     "web_publishing": 4,
     "ecosystem_media": 4
   },
   "repositories": [
     {
       "name": ".github",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/.github",
       "group": "web_publishing",
       "visibility": "public",
       "status": "active",
@@ -20,15 +22,8 @@
       "description": "Shared organisation profiles, community health files, and workflow defaults"
     },
     {
-      "name": "AI-Tyreju-Komanda",
-      "group": "intelligence_automation",
-      "visibility": "public",
-      "status": "active",
-      "language": "JavaScript",
-      "description": "AI investigative agent tooling and collaborative analysis workspace"
-    },
-    {
       "name": "freedom.manifesto.github.io",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/freedom.manifesto.github.io",
       "group": "web_publishing",
       "visibility": "public",
       "status": "active",
@@ -36,15 +31,8 @@
       "description": "Public SafeStack freedom manifesto portal and community documentation"
     },
     {
-      "name": "node-os",
-      "group": "runtime_infrastructure",
-      "visibility": "public",
-      "status": "active",
-      "language": "Go",
-      "description": "Autonomous zero-trust security layer for Pi 5 edge nodes with NVMe health monitoring"
-    },
-    {
       "name": "safestack-audit_system",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-audit_system",
       "group": "intelligence_automation",
       "visibility": "public",
       "status": "active",
@@ -53,6 +41,7 @@
     },
     {
       "name": "safestack-book",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-book",
       "group": "web_publishing",
       "visibility": "public",
       "status": "active",
@@ -61,6 +50,7 @@
     },
     {
       "name": "safestack-canon",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-canon",
       "group": "trust_registry",
       "visibility": "public",
       "status": "archived",
@@ -69,6 +59,7 @@
     },
     {
       "name": "safestack-control-architecture",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-control-architecture",
       "group": "trust_registry",
       "visibility": "public",
       "status": "active",
@@ -76,7 +67,17 @@
       "description": "Layered routing, encryption mechanisms, and infrastructure trust boundaries"
     },
     {
+      "name": "safestack-darbu-sauga",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-darbu-sauga",
+      "group": "web_publishing",
+      "visibility": "public",
+      "status": "active",
+      "language": null,
+      "description": "Occupational health and safety (DSS) standard and remote-work ergonomics handbook (HN 32:2004)"
+    },
+    {
       "name": "safestack-media-library",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-media-library",
       "group": "ecosystem_media",
       "visibility": "public",
       "status": "active",
@@ -85,6 +86,7 @@
     },
     {
       "name": "safestack-music",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-music",
       "group": "ecosystem_media",
       "visibility": "public",
       "status": "active",
@@ -93,6 +95,7 @@
     },
     {
       "name": "safestack-OSINT",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-OSINT",
       "group": "intelligence_automation",
       "visibility": "public",
       "status": "active",
@@ -101,6 +104,7 @@
     },
     {
       "name": "safestack-partners",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-partners",
       "group": "ecosystem_media",
       "visibility": "public",
       "status": "active",
@@ -108,31 +112,26 @@
       "description": "SafeStack partners and security ecosystem integration resources"
     },
     {
-      "name": "safestack-porfolio.github.io",
-      "group": "web_publishing",
-      "visibility": "public",
-      "status": "active",
-      "language": "HTML",
-      "description": "SafeStack public portfolio and architectural showcase portal"
-    },
-    {
       "name": "safestack-project-public-keys",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-project-public-keys",
       "group": "trust_registry",
       "visibility": "public",
       "status": "active",
       "language": "Python",
-      "description": "Signed public Ed25519 keys for SafeStack projects and release signers"
+      "description": "Root-signed public Ed25519 keys for SafeStack projects and release signers"
     },
     {
       "name": "safestack-repo-map",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-repo-map",
       "group": "ecosystem_media",
       "visibility": "public",
       "status": "active",
       "language": null,
-      "description": "Visual tree and architecture map of the SafeStack GitHub organisation"
+      "description": "Visual architecture map, repository tree, and machine-readable snapshot of the SafeStack GitHub organisation"
     },
     {
       "name": "Safestack-Sentinel",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/Safestack-Sentinel",
       "group": "runtime_infrastructure",
       "visibility": "public",
       "status": "active",
@@ -141,6 +140,7 @@
     },
     {
       "name": "Safestack-suite",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/Safestack-suite",
       "group": "runtime_infrastructure",
       "visibility": "public",
       "status": "active",
@@ -149,6 +149,7 @@
     },
     {
       "name": "safestack-technical-canon",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-technical-canon",
       "group": "trust_registry",
       "visibility": "public",
       "status": "active",
@@ -157,14 +158,16 @@
     },
     {
       "name": "safestack-validation-registry",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/safestack-validation-registry",
       "group": "trust_registry",
       "visibility": "public",
       "status": "active",
       "language": null,
-      "description": "Official registry of validated SafeStack projects, audit records, and declarations"
+      "description": "Official registry of validated SafeStack projects, audit records, and owner-signed declarations"
     },
     {
       "name": "Safestack-Zero-Trust",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/Safestack-Zero-Trust",
       "group": "runtime_infrastructure",
       "visibility": "public",
       "status": "active",
@@ -173,6 +176,7 @@
     },
     {
       "name": "SafeStack-Zero-Trust-Platform",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/SafeStack-Zero-Trust-Platform",
       "group": "runtime_infrastructure",
       "visibility": "public",
       "status": "active",
@@ -181,11 +185,12 @@
     },
     {
       "name": "Verification-artifacts",
+      "url": "https://github.com/kibernetinio-saugumo-sprendimai/Verification-artifacts",
       "group": "trust_registry",
       "visibility": "public",
       "status": "active",
-      "language": "Shell",
-      "description": "Detached cryptographic checksum files and verification manifests for external validation"
+      "language": "Python",
+      "description": "Detached owner-signed SHA-256 checksum manifests and ecosystem verification engine"
     }
   ]
 }
